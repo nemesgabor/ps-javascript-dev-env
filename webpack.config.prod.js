@@ -45,7 +45,9 @@ export default {
         minifyCSS: true,
         minifyURLs: true
       },
-      inject:true
+      inject:true,
+      //Az itt megadott paraméterek htmlWebpackPlugin.options.varname -el elérhetőek az index.html-ben
+      trackJSToken:'valami'
     }),
 
     //DeDupe
